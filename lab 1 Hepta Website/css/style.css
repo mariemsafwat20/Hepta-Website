@@ -148,13 +148,17 @@ header{
     transition: all 0.3s;
 }
 
-.next-section .watch_btn .play-icon:hover{
+.next-section .watch_btn:hover .play-icon{
     color: var(--title-color);
     border: 2px solid var(--title-color);
 }
 
 .next-section .watch_btn span{
     margin-top: 7px;
+}
+
+.next-section .watch_btn:hover span{
+    color: #3f7b77;
 }
 
 /* next Section exprience  */
